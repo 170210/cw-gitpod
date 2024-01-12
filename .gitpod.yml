@@ -1,4 +1,4 @@
-image: finschia/cw-gitpod:1.0.0-rc1
+image: finschia/cw-gitpod:1.0.0
 
 checkoutLocation: "cw-gitpod"
 workspaceLocation: "./cw-gitpod/cosmwasm"
@@ -13,6 +13,8 @@ tasks:
   - name: Setup
 
     init: |
+      gp sync-done settings-sync-off
+      gp sync-await settings-sync-off
       ##
       # clone tutorials
       cd ..
