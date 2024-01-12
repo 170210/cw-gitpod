@@ -13,6 +13,8 @@ tasks:
   - name: Setup
 
     init: |
+      gp sync-done settings-sync-off
+      gp sync-await settings-sync-off
       ##
       # clone tutorials
       cd ..
