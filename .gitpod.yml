@@ -1,4 +1,4 @@
-image: finschia/cw-gitpod:latest
+image: finschia/cw-gitpod:1.0.0-rc1
 
 checkoutLocation: "cw-gitpod"
 workspaceLocation: "./cw-gitpod/cosmwasm"
@@ -6,7 +6,7 @@ workspaceLocation: "./cw-gitpod/cosmwasm"
 vscode:
   extensions:
     - rust-lang.rust-analyzer
-    - Spoorthi.cosmy-wasmy
+    - https://github.com/Finschia/cosmy-wasmy/releases/download/v2.3.1%2Bfinschia/cosmy-wasmy-2.3.1+finschia.vsix
     - tamasfe.even-better-toml
 
 tasks:

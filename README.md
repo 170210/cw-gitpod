@@ -8,4 +8,4 @@ This provides the following environment:
 - Run Finschia localnet and the faucet server in advance
 - Install rust-analyzer, cosmy-wasmy, and even-better-toml for vscode in advance
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Finschia/cw-gitpod)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Finschia/cw-gitpod/tree/rc/v1.0.0-cosmywasmy)
