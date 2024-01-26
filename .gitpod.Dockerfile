@@ -3,9 +3,6 @@ ARG FNSA_VERSION=2.0.1
 
 RUN rustup toolchain install 1.69.0
 RUN rustup default 1.69.0
-RUN rustup default 1.74.1
-RUN cargo install cargo-generate@0.19.0
-RUN rustup default 1.69.0
 
 USER root
 RUN wget -O /usr/local/bin/fnsad https://github.com/Finschia/finschia/releases/download/v$FNSA_VERSION/fnsad-$FNSA_VERSION-linux-amd64
